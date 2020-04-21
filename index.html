@@ -1,90 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Responsive page</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
-<body class="container-fluid">
-    <header class="container-fluid"><a href="#"><img src="" alt=""></a>
-        <h1>
-            <span>PANAGEA</span>
-            Premium Site Template for Travel Agencies, Hotels and Restaurant listing
-        </h1>
-        <div>
-            <a href="#">View Main Demo</a>
-            <a href="#">View Other Demos</a>
-        </div>
-    </header>
-    <main>
-        <h2>Other Demos</h2>
-        <p>Check other default demos, which pretty much show some features available</p>
-        <ul>
-            <li>
-                <img src="" alt="">
-                <h3>Adventure Section</h3>
-            </li>
-            <li><img src="" alt="">
-                <h3>Home AirBnB</h3>
-            </li>
-            <li><img src="" alt="">
-                <h3>Location Autocomplete</h3>
-            </li>
-            <li><img src="" alt="">
-                <h3>Half Screen Map</h3>
-            </li>
-            <li><img src="" alt="">
-                <h3>RTL support</h3>
-            </li>
-            <li><img src="" alt="">
-                <h3>Home 1</h3>
-            </li>
-            <li><img src="" alt="">
-                <h3>Home 2</h3>
-            </li>
-            <li><img src="" alt="">
-                <h3>Home 3</h3>
-            </li>
-            <li><img src="" alt="">
-                <h3>Home 4</h3>
-            </li>
-        </ul>
-    </main>
-    <footer>
-        <div>
-            <h2>Others Premium Selling Templates</h2>
-            <div>
-                <ol>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ol>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
+    <head>
+        <meta charset="UTF-8">
+        <title>Responsive page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap-grid.min.css" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/main.css">
+    </head>
+    <body>
+        <header class="container-fluid header">
+            <a class="header__logo" href="#"><img src="img/logo_2x.png" width="150" height="36" alt="PANAGEA logo"></a>
+            <div class="row justify-content-center align-items-center flex-column no-gutters">
+                <h1 class="col-xl-8 col-md-10 col-12 header__title">
+                    <span class="header__title--big">PANAGEA</span><br>
+                    Premium Site Template for Travel Agencies, Hotels<br> and Restaurant listing
+                </h1>
+                <nav class="header__nav">
+                    <a href="#" class="header__button header__button--main">View Main Demo</a>
+                    <a href="#" class="header__button header__button--others">View Other Demos</a>
+                </nav>
             </div>
-            <button>View Portfolio</button>
-        </div>
-        <small>&copy; 2019-2020. All rights reserved. Created by <a href="#">Ansonnika</a></small>
-    </footer>
-    <div></div>
-</body>
+        </header>
+        <main class="main">
+            <h2 class="main__title pseudo-separator">Other Demos</h2>
+            <p class="main__description">Check other default demos, which pretty much show some features available</p>
+            <ul class="row main__demos-list">
+                <li class="main__list-item col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                    <a href="#" class="main__demo">
+                        <img class="main__demo-img" src="img/img-1.png" alt="Adventure Section Demo">
+                        <h3 class="main__demo-title main__demo-title--new">Adventure Section</h3>
+                    </a>
+                </li>
+                <li class="main__list-item col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                    <a href="#" class="main__demo">
+                        <img class="main__demo-img" src="img/img-2.png" alt="Home AirBnB Demo">
+                        <h3 class="main__demo-title main__demo-title--new">Home AirBnB</h3>
+                    </a>
+                </li>
+                <li class="main__list-item col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                    <a href="#" class="main__demo">
+                        <img class="main__demo-img" src="img/img-3.png" alt="Location Autocomplete Demo">
+                        <h3 class="main__demo-title main__demo-title--new">Location Autocomplete</h3>
+                    </a>
+                </li>
+                <li class="main__list-item col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                    <a href="#" class="main__demo">
+                        <img class="main__demo-img" src="img/img-4.png" alt="Half Screen Map Demo">
+                        <h3 class="main__demo-title main__demo-title--new">Half Screen Map</h3>
+                    </a>
+                </li>
+                <li class="main__list-item col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                    <a href="#" class="main__demo">
+                        <img class="main__demo-img" src="img/img-5.png" alt="RTL support Demo">
+                        <h3 class="main__demo-title main__demo-title--new">RTL support</h3>
+                    </a>
+                </li>
+                <li class="main__list-item col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                    <a href="#" class="main__demo">
+                        <img class="main__demo-img" src="img/img-6.png" alt="Home 1 Demo">
+                        <h3 class="main__demo-title">Home 1</h3>
+                    </a>
+                </li>
+                <li class="main__list-item col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                    <a href="#" class="main__demo">
+                        <img class="main__demo-img" src="img/img-7.png" alt="Home 2 Demo">
+                        <h3 class="main__demo-title">Home 2</h3>
+                    </a>
+                </li>
+                <li class="main__list-item col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                    <a href="#" class="main__demo">
+                        <img class="main__demo-img" src="img/img-8.png" alt="Home 3 Demo">
+                        <h3 class="main__demo-title">Home 3</h3>
+                    </a>
+                </li>
+                <li class="main__list-item col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                    <a href="#" class="main__demo">
+                        <img class="main__demo-img" src="img/img-9.png" alt="Home 4 Demo">
+                        <h3 class="main__demo-title">Home 4</h3>
+                    </a>
+                </li>
+            </ul>
+        </main>
+        <footer class="container-fluid footer">
+            <div class="footer__slider-container">
+                <h2 class="footer__title pseudo-separator">Others Premium Selling Templates</h2>
+                <div class="footer__slider">
+                    <ul class="footer__slides d-flex row no-gutters">
+                        <li class="footer__slide col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                            <a href="#"><img class="footer__slide-img" src="img/carousel-image-1.png" alt=""></a>
+                        </li>
+                        <li class="footer__slide col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                            <a href="#"><img class="footer__slide-img" src="img/carousel-image-2.png" alt=""></a>
+                        </li>
+                        <li class="footer__slide col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                            <a href="#"><img class="footer__slide-img" src="img/carousel-image-3.png" alt=""></a>
+                        </li>
+                        <li class="footer__slide col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                            <a href="#"><img class="footer__slide-img" src="img/carousel-image-1.png" alt=""></a>
+                        </li>
+                        <li class="footer__slide col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                            <a href="#"><img class="footer__slide-img" src="img/carousel-image-3.png" alt=""></a>
+                        </li>
+                        <li class="footer__slide col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                            <a href="#"><img class="footer__slide-img" src="img/carousel-image-2.png" alt=""></a>
+                        </li>
+                        <li class="footer__slide col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                            <a href="#"><img class="footer__slide-img" src="img/carousel-image-2.png" alt=""></a>
+                        </li>
+                        <li class="footer__slide col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                            <a href="#"><img class="footer__slide-img" src="img/carousel-image-1.png" alt=""></a>
+                        </li>
+                        <li class="footer__slide col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                            <a href="#"><img class="footer__slide-img" src="img/carousel-image-3.png" alt=""></a>
+                        </li>
+                        <li class="footer__slide col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                            <a href="#"><img class="footer__slide-img" src="img/carousel-image-2.png" alt=""></a>
+                        </li>
+                        <li class="footer__slide col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                            <a href="#"><img class="footer__slide-img" src="img/carousel-image-3.png" alt=""></a>
+                        </li>
+                        <li class="footer__slide col-12 col-md-6 col-xl-4 d-flex justify-content-around">
+                            <a href="#"><img class="footer__slide-img" src="img/carousel-image-1.png" alt=""></a>
+                        </li>
+                    </ul>
+                        <ul class="footer__slider-picker">
+                            <li class="footer__slider-dot footer__slider-dot--active" data-index="1"></li>
+                            <li class="footer__slider-dot" data-index="2"></li>
+                            <li class="footer__slider-dot" data-index="3"></li>
+                            <li class="footer__slider-dot" data-index="4"></li>
+                            <li class="footer__slider-dot d-xl-none" data-index="5"></li>
+                            <li class="footer__slider-dot d-xl-none" data-index="6"></li>
+                            <li class="footer__slider-dot d-xl-none d-md-none" data-index="7"></li>
+                            <li class="footer__slider-dot d-xl-none d-md-none" data-index="8"></li>
+                            <li class="footer__slider-dot d-xl-none d-md-none" data-index="9"></li>
+                            <li class="footer__slider-dot d-xl-none d-md-none" data-index="10"></li>
+                            <li class="footer__slider-dot d-xl-none d-md-none" data-index="11"></li>
+                            <li class="footer__slider-dot d-xl-none d-md-none" data-index="12"></li>
+                        </ul>
+                </div>
+                <a class="footer__portfolio-button" href="#">View Portfolio</a>
+            </div>
+            <small class="footer__copyright">&copy; 2019-2020. All rights reserved. Created by <a class="footer__copyright-link" href="#">Ansonnika</a></small>
+        </footer>
+        <div class="scroll-top-button d-none"></div>
+    </body>
+    <script src="JS/main.js"></script>
 </html>
